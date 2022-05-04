@@ -1,0 +1,133 @@
+.chat-container {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat {
+  width: 600px;
+  height: calc(80vh - 60px);
+  margin: 60px 0 0;
+  background: #fff;
+  box-shadow: 0 0 16px #9b59b677;
+  border-radius: 12px;
+  padding: 24px 28px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.message-field{
+  width: 100%;
+  overflow-y:scroll;
+  height: 100%;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.message-field::-webkit-scrollbar {
+  width: 2px;
+}
+
+
+.message-field::-webkit-scrollbar-thumb {
+  background-color: #9b59b6;
+  outline: 2px solid #9b59b6;
+  border-radius: 2px;
+}
+
+
+
+.message-form {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+.message-form button {
+  margin-left: 20px;
+}
+
+.message-form input {
+  width: 100%;
+  outline: none;
+  border: .5px solid #ddd;
+  border-radius: 6px;
+  font-family: 'Raleway';
+  padding: 3px 10px;
+}
+
+button.btn-dark {
+  border-color: #9b59b6;
+  color: #9b59b6;
+}
+
+button.btn-dark:hover {
+  background-color:#9b59b6;
+  color: #fff;
+}
+
+.mess {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.mess img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: .5px solid #ddd5;
+}
+
+.mess .time {
+  opacity: .7;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+  margin-top: 4px;
+}
+
+.name{
+  font-size: 10px;
+  font-weight: 200;
+  margin-bottom: 4px;
+}
+
+.mess-friend {
+  justify-content: flex-start;
+}
+
+.mess-your {
+  justify-content: flex-end;
+}
+
+.mess-inner{
+  width: max-content;
+  background: #9b59b6;
+  color: #fff;
+  padding: 6px 20px;
+  font-size: 14px;
+  font-family: 'Raleway';
+  border-radius: 8px;
+  box-shadow: 0 0 6px #9b59b677;
+  margin: 7px 0;
+  max-width: 50%;
+  line-height: 16px;
+}
